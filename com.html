@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Chat Box</title>
+  <link rel="stylesheet" href="com.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/v4-shims.min.css">
+</head>
+<body>
+      <i class="fa fa-camera-retro fa-5x"></i> 
+      <button class="open-button" onclick="openForm()" style='font-size:24px'><i class='fas fa-comments'> Chat</i></button>
+      
+           
+      <div class="form-popup" id="myForm">
+            <div class="form-container">
+              <h1>CHAT BOT</h1>
+          
+              <div id="main">
+                  <div class="u">USER: <span id="user"></span></div>
+                  <div class="ch"> BOT: <span id="chatbot"></span></div>
+                  <div><input id="input" type="text" placeholder="user say anything..." autocomplete="off"/></div>
+            </div>
+
+          </div>
+
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </div>
+      </div>
+
+        
+         <!-- <button class="open-button" onclick="openForm()">Chat</button>
+
+          <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+                   <h1>Chat Message</h1>
+            <!-- <textarea  id="input" placeholder="say anything...""  name="msg" required ></textarea> -->
+            <!-- <div id="main">
+	<div>user: <span id="user"></span></div>
+	<div>chatbot: <span id="chatbot"></span></div>
+	<div><input id="input" type="text" placeholder="say anything..." autocomplete="off"/></div>
+</div>
+             
+            <button type="submit" class="btn">Send</button>
+         
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div> --> 
+      
+
+    <script src="com.js"></script>
+
+      </script>
+</body>
+</html>
